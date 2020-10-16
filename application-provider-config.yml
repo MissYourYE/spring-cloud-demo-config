@@ -28,7 +28,7 @@ eureka:
   client:
     service-url:
       # 指定当前Client所要连接的eureka Server
-       defaultZone: http://localhost:8000/eureka
+       defaultZone: http://localhost:8001/eureka
   instance:
     # 设置当前Client每1秒向Server发送一次心跳，单位秒
     lease-renewal-interval-in-seconds: 1
