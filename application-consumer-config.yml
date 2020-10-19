@@ -1,3 +1,5 @@
+prefix: pre
+
 spring:
   profiles: dev
   application:
